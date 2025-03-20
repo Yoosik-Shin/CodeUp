@@ -9,21 +9,21 @@ public class Main {
 		double a = sc.nextDouble();
 		double b = sc.nextDouble();
 		
-		double plus1 = a+b;
-		double plus2 = b+a;
+		double plus = a+b;
+		
 		double minus1 = a-b;
 		double minus2 = b-a;
-		double multiple1 = a*b;
-		double multiple2 = b*a;
+		double multiple = a*b;
+		
 		double divide1 = a/b;
 		double divide2 = b/a;
 		double square1 = a*a;
 		double square2 = b*b;
 		
-		double arr[] = new double [10];
-		arr[0] = plus1;
+		double arr[] = new double [8];
+		arr[0] = plus;
 		
-		arr[10] = square2;
+		arr[8] = square2;
 		
 	}
 
